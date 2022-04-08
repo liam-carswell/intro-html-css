@@ -1,52 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Permanent+Marker&display=swap');
 
-:root {
-    --background-color:  rgba(215, 217, 217, 0.586);
-    --section-color: #ffffff;
-    --text-color: rgb(42, 39, 39);
-  }
-  
+
 * {
     padding:0;
     margin:0;
 }
 
-/* html {
-    max-width: 70ch;
-    padding: 3em 1em;
-    margin: auto;
-    line-height: 1.75;
-    font-size: 1.25em;
-} */
-
 body {
-    background-color: var(--background-color);
+    background-color: rgba(215, 217, 217, 0.586);
     padding: 1rem;
-    color: var(--text-color);
+    color: rgb(42, 39, 39);
     font-family: 'Inter', sans-serif;
 }
 
 nav {
-    /* background-color: var(--section-color); */
-    /* border: black 2px solid;
-    border-radius: 1rem .5rem .5rem 0rem; */
-    margin: 1rem;
-    padding: 1rem;
+    margin: 2rem auto 2rem auto;
+    padding: 2rem;
+    width: 90%;
+    max-width: 1000px;
 }
 
 section {
-    background-color: var(--section-color);
-    border: black 2px solid;
-    border-radius: 1rem .5rem .5rem 1rem;
-    margin: 1rem;
+    background-color: #ffffff;
+    border: rgb(42, 39, 39) 1.5px solid;
+    border-radius: 1rem;
+
+    margin: 2rem auto 2rem auto;
     padding: 2rem;
-    width: 100%;
+    width: 90%;
+    max-width: 1000px;
+    /* equivalent to the margin above
+    margin: 2rem;
+    margin-inline: auto; */
 }
 
 h1{
     font-size: 3rem;
     font-family: 'Permanent Marker', cursive;
-    
 }
 
 h2{
