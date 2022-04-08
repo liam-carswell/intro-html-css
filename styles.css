@@ -1,3 +1,70 @@
-.orange-text {
-    color: #FF5733;
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Permanent+Marker&display=swap');
+
+:root {
+    --background-color:  rgba(215, 217, 217, 0.586);
+    --section-color: #ffffff;
+    --text-color: rgb(42, 39, 39);
+  }
+  
+* {
+    padding:0;
+    margin:0;
 }
+
+/* html {
+    max-width: 70ch;
+    padding: 3em 1em;
+    margin: auto;
+    line-height: 1.75;
+    font-size: 1.25em;
+} */
+
+body {
+    background-color: var(--background-color);
+    padding: 1rem;
+    color: var(--text-color);
+    font-family: 'Inter', sans-serif;
+}
+
+nav {
+    /* background-color: var(--section-color); */
+    /* border: black 2px solid;
+    border-radius: 1rem .5rem .5rem 0rem; */
+    margin: 1rem;
+    padding: 1rem;
+}
+
+section {
+    background-color: var(--section-color);
+    border: black 2px solid;
+    border-radius: 1rem .5rem .5rem 1rem;
+    margin: 1rem;
+    padding: 2rem;
+    width: 100%;
+}
+
+h1{
+    font-size: 3rem;
+    font-family: 'Permanent Marker', cursive;
+    
+}
+
+h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: 'Permanent Marker', cursive;
+
+}
+
+.image {
+    max-width: 100%;
+    border-radius: 40% 20% 30% 0%;
+}
+
+
+/* play around with this to center things */
+.gradient {
+    margin: 0 auto;
+    display: block;
+}
+
