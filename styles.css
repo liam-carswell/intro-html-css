@@ -34,6 +34,18 @@ section {
     margin-inline: auto; */
 }
 
+footer {
+    margin: 2rem auto 2rem auto;
+    padding: 2rem;
+    width: 90%;
+    max-width: 1000px;
+    text-align: center;
+}
+
+ol{
+    padding: 2rem;
+}
+
 h1{
     font-size: 3rem;
     font-family: 'Permanent Marker', cursive;
@@ -47,14 +59,26 @@ h2{
 }
 
 .image {
-    max-width: 100%;
-    border-radius: 40% 20% 30% 0%;
+    width: 80%;
+    min-width: 320px;
+    margin: 2rem auto 0 auto;
+    display: block;
+    border-radius: 1rem;
 }
 
-
-/* play around with this to center things */
-.gradient {
-    margin: 0 auto;
+.route-profile {
+    width:100%;
+    height:400px;
+    margin: 2rem auto 0 auto;
     display: block;
 }
 
+.video {
+    width:560px;
+    height:315px;
+    max-width:100%;
+    
+    /* used to center elements: */
+    margin: 2rem auto 0 auto;
+    display: block;
+}
