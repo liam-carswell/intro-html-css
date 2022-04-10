@@ -39,3 +39,8 @@ Once you have applied these CSS properties, feel free to explore the many others
 - centering: how would you centre the profile in the page?
 - responsive design: how could you make this profile look good on both a desktop screen and a mobile device?
 - deploy to Github Pages
+
+## Still to do
+
+- Make YouTube embed smaller, but still central and responsive
+- Add CSS grid for images and footer links
