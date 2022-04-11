@@ -1,58 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Permanent+Marker&display=swap');
 
 
+/* template styles */
+
 * {
     padding:0;
     margin:0;
 }
 
 body {
+    width: 95%;
+    margin: 2rem auto 2rem auto;
     background-color: rgba(215, 217, 217, 0.586);
-    padding: 1rem;
-    color: rgb(42, 39, 39);
     font-family: 'Inter', sans-serif;
+    color: rgb(42, 39, 39);
 }
 
+nav, main, footer {
+    margin: 0 auto 0 auto;
+    max-width: 900px;
+}
+
+
+/* custom styles */
+
 nav {
-    margin: 2rem auto 2rem auto;
     padding: 2rem;
-    width: 60%;
-    max-width: 1000px;
 }
 
 section {
+    padding: 2rem;
     background-color: #ffffff;
     border: rgb(42, 39, 39) 1.5px solid;
     border-radius: 1rem;
-
-    margin: 2rem auto 2rem auto;
-    padding: 2rem;
-    width: 90%;
-    max-width: 1000px;
-    /* equivalent to the margin above
-    margin: 2rem;
-    margin-inline: auto; */
+    margin-bottom: 1rem;
 }
 
 footer {
-    margin: 2rem auto 2rem auto;
     padding: 2rem;
-    width: 90%;
-    max-width: 1000px;
-    text-align: center;
-}
-
-ol {
-    padding: 2rem;
-}
-
-li {
-    padding: 0 1rem 0 1rem;
-}
-
-ul {
-    list-style: "→" outside none;
-    padding: 0 1rem 0 1rem;
 }
 
 h1 {
@@ -66,34 +51,34 @@ h2 {
     font-family: 'Permanent Marker', cursive;
 }
 
-.image {
-    width: 80%;
-    min-width: 100px;
+ul {
+    list-style: "→" outside none;
+    padding: 2rem;
+}
+
+ol {
+    padding: 2rem;
+}
+
+li {
+    padding: 0 1rem 0 1rem;
+}
+
+.image, .route-profile {
+    width: 100%;
+    max-width: 600px;
     margin: 2rem auto 0 auto;
     display: block;
     border-radius: 1rem;
 }
 
 .route-profile {
-    width:90%;
     height:400px;
-    margin: 2rem auto 0 auto;
-    display: block;
-}
-
-.video {
-    width:500px;
-    height:315px;
-    max-width:100%;
-    
-    /* used to center elements: */
-    margin: 2rem auto 0 auto;
-    display: block;
 }
 
 .embed-youtube {
     position: relative;
-    padding-bottom: 56.25%; /* - 16:9 aspect ratio (most common) */
+    padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
 }
@@ -106,3 +91,10 @@ h2 {
     width: 100%;
     height: 100%;
 }
+
+.footer-links {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    row-gap: 1rem;
+  }
